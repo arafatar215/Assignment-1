@@ -10,6 +10,16 @@ body {
     display: flex;
 }
 
+div p {
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+
+samp {
+    color: rgb(246, 76, 76);
+}
+
 .half-width {
     width: 50%;
     padding-left: 10%;
@@ -21,10 +31,55 @@ body {
     padding: 0px 10px 0px 40px;
 }
 
+.link {
+    background-color: rgb(231, 56, 56);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 20px;
+
+}
+
 #mission {
     text-align: center;
+    font-size: 35px;
+}
+
+.big {
+    font-size: 42px;
 }
 
 .border {
-    border-left: 5px solid;
+    border-left: 3px solid;
+    border-image: linear-gradient(red, red);
+    border-image-slice: 1;
+    padding-left: 5px;
+}
+
+.red {
+    color: red;
+}
+
+.mission {
+    background-color: lightblue;
+    border-radius: 8px;
+    margin-left: 107px;
+}
+
+.vission {
+    background-color: lightpink;
+    border-radius: 8px;
+}
+
+.goals {
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+}
+
+.box {
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-right: 35px;
 }
